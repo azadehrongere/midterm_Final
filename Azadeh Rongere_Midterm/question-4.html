@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Question 4</title>
+</head>
+<body>
+
+<script src="jquery-3.1.1.js"></script>
+<script>
+ 
+
+
+var url = 'http://itp-api.herokuapp.com/api/comments'
+
+var commentList = new CommentList
+  
+  commentList.fetch(url).then(function(response){
+    return document.getElementById(id);
+
+
+    console.log(response);
+    // comments should look like [ { id: 1, body: 'First!' }, ... ]
+
+
+    // I tried using the different functionalities of fetch and I was unlcear on how to post 2 ids.
+
+  // I tried using the same method used in #5 on the midterm practice exam but nothing worked :( I'm sorry!
+  });
+</script>
+
+</body>
+</html>
+
